@@ -32,7 +32,7 @@ nav a {
 main {
 font-family: Impact, 'Arial Narrow', sans-serif;
 padding: 2rem;
-justify-content:right
+text-align: right;
 }
 
 main p { 
@@ -74,11 +74,11 @@ button:hover {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
-    position: moved;
-    bottom: 0;
-    width: 100%;
 }
